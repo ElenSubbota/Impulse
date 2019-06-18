@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css"/>
+  <link rel="stylesheet" href="./css/normalize.css"/>
+  <title>Document</title>
+  <script type="text/javascript" src="./static/js/jquery-1.8.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+ <script type="text/javascript" src="./static/js/main.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- <script src="./libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> -->
+
+</head>
+<body>
+  
+  <header>
+    <div class="header__wrap">
+
+      <div class="header__top container">
+        <div class="header__top_wrap row">
+          <div class="header__logo col-lg-3">
+            <a href="#"><img src="./img/logo-impulse-120.png" alt="logo" class="header__logo-img "></a>
+          </div>
+          <div class="header__contacts col-lg-9">
+            <div class="row header-top">
+              <div class="col-lg-3 header__top_text">
+                <p><a href="tel:+74954105220" class="header-tel"></a><span class="header-tel_numb"><a href="tel:+74954105220" class="header-tel_link">+7 495 410-52-20</a></span></p>
+              </div>
+              <div class="col-lg-5 header__top_text">
+                <p class="header__adress"><span class="header__adress_span">115583 Москва, ул.Елецкая, д.26, корп.2</span></p>
+              </div>
+              <div class="col-lg-4 header__top_text social-desk">
+                <a href="#"><div class="header-soc"><span class="header-soc-icon-1"></span></div></a>
+                <a href="#"><div class="header-soc"><span class="header-soc-icon-2"></span></div></a>
+                <a href="#"><div class="header-soc"><span class="header-soc-icon-3"></span></div></a>
+                <a href="#"><div class="header-soc"><span class="header-soc-icon-4"></span></div></a>
+                <a href="#"><div class="header-soc"><span class="header-soc-icon-5"></span></div></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="header__bott_navig col-lg-12 col-sm-12 row">
+                <li class="header__nav_li col-sm-12 col-md-2 col-lg-2 offset-md-2"><a href="#" class="header__bott_navig_link">Продукция</a></li>
+                <li class="header__nav_li col-sm-12 col-md-3 col-lg-2"><a href="#" class="header__bott_navig_link">Новости</a></li>
+                <li class="header__nav_li col-sm-12 col-md-3 col-lg-2"><a href="#" class="header__bott_navig_link">Статьи</a></li>
+                <li class="header__nav_li col-sm-12 col-md-2 col-lg-2"><a href="#" class="header__bott_navig_link">Контакты</a></li>
+
+                <li class="header__nav_li col-sm-12 col-md-2 col-lg-2">
+                  <nav class="header-top__nav dropdown show">
+                    <!-- button for gamburger (menu in top header) -->
+                    <a href="#header-top__list" class="header-top_menu-btn" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="header-top_menu-btn_span"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Услуга</a>
+                      <a class="dropdown-item" href="#">Услуга</a>
+                      <a class="dropdown-item" href="#">Услуга</a>
+                    </div>
+                  </nav>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+  <div id="carouselExampleControls" class="carousel slide main-slider" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./img/slide-1-1920x753.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/slide-1-1920x753.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./img/slide-1-1920x753.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <div class="slid-descript__wrap container">
+      <div class="slid-descript col-sm-12 col-md-4 col-lg-4">
+        <h2 class="slid-title">Гидромолот для<br> экскаватора-погрузчика<br> &laquo;под ключ&raquo;</h2>
+        <button type="button" name="button" class="buy-btn">Купить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<div class="about-product container">
+  <div class="row about-product__wrap">
+        <!-- left block -->
+    <div class="content-left col-md-8 col-lg-8" role="main">
+      <div class="row tab_content">
+        <!-- описания -->
+        <div class="tab_item1 active">
+          <div class="row">
+            <div class="content-left__label col-md-7 col-lg-7">
+              <div class="video__wrapper">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8zB8-OiBj_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="content-left__descript col-md-5 col-lg-5">
+              <h3>О продукте</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- таб инфа-->
+        <div class="tab_item2 none">
+          <div class="row">
+            <div class="content-left__label col-md-7 col-lg-7">
+              <div class="video__wrapper">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8zB8-OiBj_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="content-left__descript col-md-5 col-lg-5">
+              <h3>О продукте</h3>
+              <p>
+                Lorem ips.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- таб инфа-->
+        <div class="tab_item3 none">
+          <div class="row">
+            <div class="content-left__label col-md-7 col-lg-7">
+              <div class="video__wrapper">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8zB8-OiBj_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+            <div class="content-left__descript col-md-5 col-lg-5">
+              <h3>О продукте</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- right block -->
+    <div class="right-nav col-md-4 col-lg-4">
+      <nav class="header-top__nav dropdown show bs-docs-sidebar">
+        <div href="#header-top__list" class="about-product-btn" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="about-product-btn_a">Сделано в России</a>
+          <div class="about-product-btn-mask"></div>
+          <div class="about-product-btn-square">
+            <img src="./img/icon/arrow-down.png" alt="arrow" class="about-product-btn-square_img">
+          </div>
+        </div>
+        <nav class="wrapper-tabs">
+          <ul class="dropdown-menu about-product__list tabs" aria-labelledby="dropdownMenuButton">
+            <li class="dropdown-item about-product__list_li" href="#"><a href="#" class="about-product__list_li_a tab1" value="0">О продукте</a></li>
+            <li class="dropdown-item about-product__list_li" href="#"><a href="#" class="about-product__list_li_a tab2" value="1">Преимущества</a></li>
+            <li class="dropdown-item about-product__list_li" href="#"><a href="#" class="about-product__list_li_a tab3" value="2">Гидромолот "под ключ"</a></li>
+            <li class="dropdown-item about-product__list_li" href="#"><a href="#" class="about-product__list_li_a tab4">Гарантия</a></li>
+            <li class="dropdown-item about-product__list_li" href="#"><a href="#" class="about-product__list_li_a tab5">Технопарк "импульс"</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+
+  <div class="gallery container-fluid">
+  <h2 class="gallery__title">Impulse  в работе</h2>
+  <div class="row">
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-1">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-2">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-3">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-4">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-1">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-2">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-3">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+    <div class="col-sm-12 col-lg-3 col-md-4 col-6 px-2 pt-2">
+      <!-- <figure class="gallery_img-4">
+
+      </figure> -->
+        <img src="./img/1.jpg" alt="img" class="gallery_img">
+    </div>
+  </div>
+
+
+</div>
+
+  <footer>
+  <div class="footer__top container-fluid">
+    <div class="footer__top_wrap container">
+      <div class="row footer__top_row">
+        <div class="footer__top_nav col-lg-4">
+          <h3 class="footer_titl">Навигация</h3>
+          <div class="footer__top_nav_list">
+            <div class="row">
+              <ul class="footer__top_nav_ul col-lg-5">
+                <li><a href="#" class="footer__top_nav_link">Гидромолот Impulse</a></li>
+                <li><a href="#" class="footer__top_nav_link">Новости</a></li>
+              </ul>
+              <ul class="footer__top_nav_ul col-lg-5">
+                <li><a href="#" class="footer__top_nav_link">Статьи</a></li>
+                <li><a href="#" class="footer__top_nav_link">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- footer__nav END -->
+          <div class="footer__top_nav_social">
+            <ul class="row">
+              <li class="footer__top_nav_soc_bl">
+                <a href="#" class="footer__top_nav_soc_link"></a>
+              </li>
+              <li class="footer__top_nav_soc_bl">
+                <a href="#" class="footer__top_nav_soc_link"></a>
+              </li>
+              <li class="footer__top_nav_soc_bl">
+                <a href="#" class="footer__top_nav_soc_link"></a>
+              </li>
+              <li class="footer__top_nav_soc_bl">
+                <a href="#" class="footer__top_nav_soc_link"></a>
+              </li>
+              <li class="footer__top_nav_soc_bl">
+                <a href="#" class="footer__top_nav_soc_link"></a>
+              </li>
+            </ul>
+          </div>
+          <!-- footer__social END -->
+        </div>
+          <!-- footer NAV - LEFT BLOCK - END -->
+
+  <!-- footer CONTACTS - RIGHT BLOCK - START -->
+        <div class="footer__top_contacts col-lg-4">
+          <h3 class="footer_titl">Контакты</h3>
+            <ul class="footer__top_contacts_list">
+              <li class="footer__top_contacts_li footer__top_contact"><a href="tel:+6494461709" class="footer__top_contacts_a">+7 (495) 410-52-20</a></li>
+              <li class="footer__top_contacts_li footer__top_contact"><span class="footer__top_contact_span">info@impulse120.ru</span></li>
+              <li class="footer__top_contact">
+                <button class="question_btn">Задать вопрос</button>
+              </li>
+            </ul>
+          </div>
+      </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <div class="footer__bot">
+
+  </div>
+</footer>
+
+
+
+</body>
+</html>
